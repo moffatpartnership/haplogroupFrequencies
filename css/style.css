@@ -1,0 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Petrona);
+
+canvas { margin: 0; padding: 0; float: left; }
+
+.block{ width:100%; max-width:1140px; margin:0 auto; }
+
+
+#Processing { display:none; position: relative; top:0; left:0; background: url(../img/overlay.png); background: -webkit-radial-gradient(50% 50%, ellipse closest-corner, rgba(0,0,0,0.3) 1%, rgba(0,0,0,0.725) 100%); background: -moz-radial-gradient(50% 50%, ellipse closest-corner, rgba(0,0,0,0.3) 1%, rgba(0,0,0,0.725) 100%); -webkit-backface-visibility: hidden; }
+#Processing .dialog { pointer-events: none; position: fixed; top: 36.6%; left: 50%; width: 200px; height: 160px; margin-top: -80px; margin-left: -100px; background: #222; background: rgba(0,0,0,0.6); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; }
+#Processing .dialog .spinner-container { position: absolute; top: 40px; left: 50%; margin-left: -23px; width: 46px; height: 46px; background: url(../img/spinner-48x48-dark.gif); }
+#Processing .dialog p { position: absolute; top: 106px; width: 100%; font-family: Helvetica, Arial, sans-serif; font-size: .9em; font-weight: normal; color: #fff; text-align: center; text-shadow: 0 2px 4px rgba(0,0,0,0.4); }
